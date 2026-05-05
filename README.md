@@ -48,11 +48,18 @@ For future competitions, I will compare:
 - prediction distribution
 - model diversity
 
+## References and Acknowledgements
+
+This work was developed for Kaggle Playground Series S6E4.
+Some public Kaggle notebooks were used as references for feature engineering, target encoding, log-odds bias calibration, and ensemble ideas.  
+An external original irrigation dataset was also used in some experiments.
+The experiments in this repository were adapted and organized for my own learning, model comparison, and post-competition analysis.
+Original competition data, generated submissions, and large prediction files are not included in this repository.
+
 ## Repository Structure
 
 ```text
 ps6e4-irrigation-need/
-
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
@@ -74,7 +81,6 @@ ps6e4-irrigation-need/
 └── outputs/
     └── summary_tables/
         └── README.md
-
 ```
 
 ## Reports
