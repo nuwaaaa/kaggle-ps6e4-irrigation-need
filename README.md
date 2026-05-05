@@ -31,9 +31,10 @@ This repository summarizes my solution development process for Kaggle Playground
 
 The most important lesson was that Public LB can be misleading.
 
-| Model | OOF | Public LB | Private LB | Submitted |
+| Model | OOF | Public LB | Private LB | Final Submission |
 |---|---:|---:|---:|---|
-| seed42 low_more_0p030 | 0.980147 | 0.98111 | 0.97999 | Yes |
+| seed42 low_more_0p030 | 0.980147 | 0.98111 | 0.97995 | Yes |
+| S + A blend | 0.980165 | 0.98110 | 0.97999 | Yes |
 | multiseed rawavg logodds | 0.980229 | 0.97928 | 0.98027 | No |
 
 The model with the best Private LB had a much lower Public LB and was not selected as a final submission.
@@ -53,47 +54,25 @@ For future competitions, I will compare:
 ps6e4-irrigation-need/
 
 ├── README.md
-
 ├── requirements.txt
-
 ├── .gitignore
-
-│
-
 ├── notebooks/
-
 │   ├── README.md
-
 │   ├── 01_eda_and_feature_inspection.ipynb
-
 │   ├── 02_xgb_domain_features_single_model.ipynb
-
 │   ├── 03_xgb_reproduction_and_bias_tuning.ipynb
-
 │   └── 04_ensemble_and_submission_analysis.ipynb
-
 │
-
 ├── reports/
-
 │   ├── experiment_log.md
-
 │   ├── final_submission_review.md
-
 │   └── lessons_learned.md
-
 │
-
 ├── src/
-
 │   └── .gitkeep
-
 │
-
 └── outputs/
-
     └── summary_tables/
-
         └── .gitkeep
 
 ```
