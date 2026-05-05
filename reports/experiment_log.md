@@ -18,13 +18,21 @@ This file summarizes the main experiments conducted during Kaggle Playground Ser
 | XGB repro | 0.97989 | 0.97955 | 0.97981 | Different feature pipeline |
 | XGB seed42 original-domain | 0.98016 | 0.98109 | 0.97996 | Public notebook reproduction |
 | S: XGB seed42 low_more_0p030 | 0.98015 | 0.98111 | 0.97995 | Final submission 1: public-oriented single model |
-| A: 2-repro + XGB OTE ensemble | 0.98017 | 0.98037 | - | Blend component used with S |
+| A: 2-repro + XGB OTE ensemble | 0.98017 | 0.98037 | 0.98013 | Blend component used with S |
 | XGB multiseed tunedavg | 0.97996 | 0.98052 | 0.98005 | Stable but not best |
 | XGB multiseed rawavg logodds | 0.98023 | 0.97928 | 0.98027 | Best private candidate, not submitted |
 | S + A blend: submission_blend_S0p980_A0p020 | 0.98017 | 0.98110 | 0.97999 | Final submission 2: blend candidate |
-| S + xgb_domain blend | 0.98017 | 0.98110 | 0.98003 | Not selected as final submission; slightly better Private LB than final submissions |
+| S + xgb_domain blend | 0.98017 | 0.98110 | 0.98003 | Not selected as final submission; slightly better Private LB than S+A |
 
 ## Notes
 
 The strongest Public LB model was not the strongest Private LB model.
-This became one of the most important lessons from this competition.
+
+My two final submissions were:
+
+- `submission_xgb_seed42_low_more_0p030`
+- `submission_blend_S0p980_A0p020`
+
+Both were selected mainly because they had strong Public LB scores. However, the best Private LB among my candidates was `XGB multiseed rawavg logodds`, which had a much lower Public LB and was not selected as a final submission.
+
+This became one of the most important lessons from this competition: final submissions should not be selected only by Public LB. OOF score, fold-wise stability, seed-wise stability, Public-OOF gap, and model diversity should also be compared.
