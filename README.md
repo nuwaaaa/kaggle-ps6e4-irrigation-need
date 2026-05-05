@@ -51,7 +51,63 @@ For future competitions, I will compare:
 
 ```text
 ps6e4-irrigation-need/
+
+├── README.md
+
+├── requirements.txt
+
+├── .gitignore
+
+│
+
 ├── notebooks/
-├── src/
+
+│   ├── README.md
+
+│   ├── 01_eda_and_feature_inspection.ipynb
+
+│   ├── 02_xgb_domain_features_single_model.ipynb
+
+│   ├── 03_xgb_reproduction_and_bias_tuning.ipynb
+
+│   └── 04_ensemble_and_submission_analysis.ipynb
+
+│
+
 ├── reports/
-└── outputs/summary_tables/
+
+│   ├── experiment_log.md
+
+│   ├── final_submission_review.md
+
+│   └── lessons_learned.md
+
+│
+
+├── src/
+
+│   └── .gitkeep
+
+│
+
+└── outputs/
+
+    └── summary_tables/
+
+        └── .gitkeep
+
+```
+
+## Reports
+
+- [Experiment Log](reports/experiment_log.md)
+- [Final Submission Review](reports/final_submission_review.md)
+- [Lessons Learned](reports/lessons_learned.md)
+
+## Notebooks
+
+- [Notebook Overview](notebooks/README.md)
+- [EDA and Feature Inspection](notebooks/01_eda_and_feature_inspection.ipynb)
+- [XGBoost Domain Features Single Model](notebooks/02_xgb_domain_features_single_model.ipynb)
+- [XGBoost Reproduction and Bias Tuning](notebooks/03_xgb_reproduction_and_bias_tuning.ipynb)
+- [Ensemble and Submission Analysis](notebooks/04_ensemble_and_submission_analysis.ipynb)
