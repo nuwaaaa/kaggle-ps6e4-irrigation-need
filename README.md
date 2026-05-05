@@ -14,7 +14,7 @@ This repository summarizes my solution development process for Kaggle Playground
 
 - Final rank: 524 / 4315
 - Best submitted Private LB: 0.97999
-- Best private candidate not submitted: 0.98027
+- Best post-competition Private LB among my candidates: 0.98027
 
 ## Key Techniques
 
