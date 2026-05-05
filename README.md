@@ -69,11 +69,11 @@ ps6e4-irrigation-need/
 │   └── lessons_learned.md
 │
 ├── src/
-│   └── .gitkeep
+│   └── README.md
 │
 └── outputs/
     └── summary_tables/
-        └── .gitkeep
+        └── README.md
 
 ```
 
